@@ -28,7 +28,6 @@ main{
 }
 
 .imgHome > img {
-    float: right;
     max-width: 100%;
     margin: 100px 100px 111px 100px;
     padding-right: 100px;
