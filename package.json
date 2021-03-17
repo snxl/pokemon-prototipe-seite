@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-prototipe-seite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snxl/pokemon-prototipe-seite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snxl/pokemon-prototipe-seite/issues"
+  },
+  "homepage": "https://github.com/snxl/pokemon-prototipe-seite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  }
+}
