@@ -61,7 +61,7 @@ main{
 }
 
 .navbar > a {
-    margin-right: 30px;
+    margin-right: 27px;
     padding-bottom: 10px;
     text-decoration: none;
     font-size: clamp(0.1em, 1.5em + 1.5vw, 1.5rem);
@@ -163,9 +163,20 @@ main{
     }
 }
 
-.border{
-    text-align: center;
-    border-bottom:4px solid black ;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border:after{
+    content: " ";
+    Display: block;
+    width : 2.4em;
+    height : .2em;
+    background-color: #212121;
+    border-radius: 10px;
+    margin-top : 8px
 }
 
 footer {
