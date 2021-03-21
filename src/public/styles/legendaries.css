@@ -43,6 +43,8 @@ header {
     box-sizing: border-box;
 }
 
+
+
 @media(min-width: 769px){
     .img-menu > img{
         display: none;
@@ -52,6 +54,14 @@ header {
         display: none;
         background: none;
     }
+
+    #legendaries {
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 0px;
+        border-bottom:4px solid black ;
+    }
+
  
 }
 
@@ -60,6 +70,4 @@ header {
         width: 128px;
         box-sizing: border-box;
     }
-
-
 }
