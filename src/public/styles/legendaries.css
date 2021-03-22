@@ -35,15 +35,113 @@ header {
 
 
 .navbar > a{
-    margin-right: 50px;
+    margin-right: 30px;
     padding-bottom: 10px;
     text-decoration: none;
-    font-size: clamp(0.5em, 1.5em + 1.5vw, 1.5rem);
+    font-size: clamp(0.1em, 1.5em + 1.5vw, 1.5rem);
     color: black;
     box-sizing: border-box;
 }
 
+body{
+    min-height:100vh
+}
 
+main{
+    height:100%;
+    background-color: rgba(33, 33, 33, 1);
+}
+
+#imgMewTwo{
+    max-width: 50%;
+}
+
+.mainTxt{
+    color:blanchedalmond;
+    font-size: 42px;
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+
+
+.detalhes{
+    color: blanchedalmond;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.detalhes > h2{
+    margin-bottom: 30px;
+    font-size: 72px;
+    margin-right: 300px;
+}
+
+.detalhes > p{
+    width: 400px;
+    margin-right: 180px;
+    word-wrap: break-word;
+    font-size: clamp(0.5px 24px 32px);
+    margin-bottom: 45px;
+}
+
+.detalhes > div{
+    margin-right: 170px;
+}
+
+.statistics{
+    max-width: 70%;
+}
+
+.caixas{
+    height: 180px;
+    width: 115px;
+    background: linear-gradient(#F9DF7B, #B57E10);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.carrocel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.images{
+    max-width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.bottom{
+    margin-top: 17px;
+    height: 180px;
+    width: 122px;
+}
+
+.img-menu{
+    background: none;
+}
+
+#legendaries{
+    text-align: center;
+    border-bottom: 4px solid black;
+}
 
 @media(min-width: 769px){
     .img-menu > img{
@@ -54,15 +152,21 @@ header {
         display: none;
         background: none;
     }
-
-    #legendaries {
-        text-align: center;
-        padding-left: 2px;
-        padding-right: 0px;
-        border-bottom:4px solid black ;
+ 
+    .pokemonMain{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-top: 70px;
+        margin-left: 40px;
+        margin-right: 90px;
     }
 
- 
+    #imgMewTwo{
+        max-width: 50%;
+    }
 }
 
 @media(min-width: 0px) and (max-width: 768px){
@@ -70,4 +174,63 @@ header {
         width: 128px;
         box-sizing: border-box;
     }
+
+    .navbar > a{
+        display: none;
+    }
+
+    .carrocel{
+        display: none;
+    }    
+
+    #imgMewTwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 100px;
+    }
+
+    .mainTxt{
+        color:blanchedalmond;
+        font-size: 42px;
+        padding-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid blanchedalmond;
+    }
+    
+    
+    
+    .detalhes{
+        color: blanchedalmond;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-left: 20px;
+    }
+    
+    .detalhes > h2{
+        margin-bottom: 30px;
+        font-size: 72px;
+        margin-right: 170px;
+        margin-left: 20px;
+    }
+    
+    .detalhes > p{
+        width: 400px;
+        margin-right: 80px;
+        margin-left: 20px;
+        word-wrap: break-word;
+        font-size: clamp(0.5px 24px 32px);
+        margin-bottom: 45px;
+    }
+
+    .statistics{
+        max-width: 70%;
+        padding-left: 40px;
+    }
+    
 }
